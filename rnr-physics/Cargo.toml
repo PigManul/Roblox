@@ -1,0 +1,16 @@
+[package]
+name = "rnr-physics"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+rnr-core = { path = "../rnr-core" }
+rnr-datamodel = { path = "../rnr-datamodel" }
+rnr-rendering = { path = "../rnr-rendering" }
+rapier3d = "0.18"
+glam = "0.24"
+anyhow = "1.0"

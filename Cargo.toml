@@ -3,11 +3,11 @@ members = [
     "rnr-core",
     "rnr-datamodel",
     "rnr-network",
-    "rnr-world",
+    "rnr-network/rnr-world",
     "rnr-scripting",
     "rnr-client",
     "rnr-server",
-    "rnr-studio",
+    "rnr-network/rnr-studio", "rnr-rendering", "rnr-physics",
 ]
 
 [workspace.package]

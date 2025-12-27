@@ -308,7 +308,7 @@ impl Instance {
         let is_a_func = ReflectionFunction::new(
             "IsA",
             "Returns true if the Instance is of the specified class.",
-            |obj| {
+            |_obj| {
                 // This would need access to Lua state - simplified for now
                 // In real implementation, this would check arguments from Lua stack
             },
@@ -318,7 +318,7 @@ impl Instance {
         let clone_func = ReflectionFunction::new(
             "Clone",
             "Creates a copy of this Instance.",
-            |obj| {
+            |_obj| {
                 // Implementation would create a clone
             },
         );

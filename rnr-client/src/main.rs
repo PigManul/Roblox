@@ -4,7 +4,6 @@ use tokio;
 use rnr_world::{World, WorldConfig};
 // NetworkClient not yet implemented
 // use rnr_network::client::NetworkClient;
-use rnr_datamodel::DataModel;
 
 /// Command line arguments for the RNR client
 #[derive(Parser)]
