@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "rnr-core",
+    "rnr-datamodel",
+    "rnr-network",
+    "rnr-world",
+    "rnr-scripting",
+    "rnr-client",
+    "rnr-server",
+    "rnr-studio",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["RNR Contributors"]
+description = "RNR's Not Roblox - A Rust implementation of the Roblox engine"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your-org/rnr-rust"
