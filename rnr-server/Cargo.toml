@@ -1,0 +1,13 @@
+[package]
+name = "rnr-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rnr-core = { path = "../rnr-core" }
+rnr-datamodel = { path = "../rnr-datamodel" }
+rnr-network = { path = "../rnr-network" }
+rnr-world = { path = "../rnr-world" }
+rnr-scripting = { path = "../rnr-scripting" }
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }

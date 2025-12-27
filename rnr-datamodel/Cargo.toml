@@ -1,0 +1,7 @@
+[package]
+name = "rnr-datamodel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rnr-core = { path = "../rnr-core" }

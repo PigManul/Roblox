@@ -1,0 +1,10 @@
+[package]
+name = "rnr-scripting"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rnr-core = { path = "../rnr-core" }
+rnr-datamodel = { path = "../rnr-datamodel" }
+rnr-world = { path = "../rnr-world" }
+tokio = { version = "1.0", features = ["rt", "sync"] }
